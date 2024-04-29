@@ -1,0 +1,32 @@
+:root {
+    --primary: #1d2434;
+    --secondary: #1f2634;
+    --alternative: #5672a8;
+    --accent: #0054a6;
+    --textColor: #c4c8d0;
+    --textSecondary: #68727e;
+    --github: #181717;
+}
+
+html {
+    background-color: var(--primary);
+    color: var(--textColor);
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80ch;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
