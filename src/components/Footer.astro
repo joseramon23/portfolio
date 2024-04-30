@@ -8,16 +8,42 @@ import Github from "../icons/github.astro";
 ---
 
 <footer>
-  <Social platform="linkedin" username="jose-ramon-portillo-gonzalez">
-    <Linkedin />
-  </Social>
-  <Social platform="instagram" username="joselitoo23">
-    <Instagram />
-  </Social>
-  <Social platform="twitter" username="byAzael">
-    <Twitter />  
-  </Social>
-  <Social platform="github" username="joseramon23">
-    <Github />
-  </Social>
+  <span class="copyright"
+    >&copy; 2024 Jose Ramón. Todos los derechos reservados.</span
+  >
+  <div class="social-links">
+    <Social platform="linkedin" username="jose-ramon-portillo-gonzalez">
+      <Linkedin class:list={"link"}/>
+    </Social>
+    <Social platform="instagram" username="joselitoo23">
+      <Instagram />
+    </Social>
+    <Social platform="twitter" username="byAzael">
+      <Twitter />
+    </Social>
+    <Social platform="github" username="joseramon23">
+      <Github />
+    </Social>
+  </div>
 </footer>
+
+<style>
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--secondary);
+  }
+
+  .copyright {
+    margin: 10px 5px;
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 15px 10px;
+  }
+</style>
