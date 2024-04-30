@@ -1,7 +1,6 @@
 :root {
     --primary: #1d2434;
-    --secondary: #1f2634;
-    --alternative: #5672a8;
+    --secondary: #5672a8;
     --accent: #0054a6;
     --textColor: #c4c8d0;
     --textSecondary: #68727e;
@@ -17,8 +16,8 @@ html {
 body {
     margin: 0 auto;
     width: 100%;
-    max-width: 80ch;
-    padding: 1rem;
+    max-width: 120ch;
+    padding: 0;
     line-height: 1.5;
 }
 
